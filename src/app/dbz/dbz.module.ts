@@ -4,13 +4,15 @@ import { CommonModule } from '@angular/common';
 
 import { MainPageComponent } from './main-page/main-page.component';
 import { PersojanesComponent } from './persojanes/persojanes.component';
+import { AgregarComponent } from './agregar/agregar.component';
 
 
 
 @NgModule({
   declarations: [
     MainPageComponent,
-    PersojanesComponent
+    PersojanesComponent,
+    AgregarComponent
   ],
   exports: [
     MainPageComponent
