@@ -25,6 +25,6 @@ export class MainPageComponent {
   }
 
   agregarNuevoPersonaje(argumento: Personaje) {
-    console.log(argumento)
+    this.personajes.push(argumento)
   }
 }
